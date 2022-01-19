@@ -29,7 +29,7 @@ body{
 }
 
 main{
-    width: 80%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -77,8 +77,17 @@ main{
     font-weight: 400;
 }
 
+.d{
+    cursor: pointer;
+}
+
 .w{
     color: whitesmoke;
+    cursor: pointer;
+}
+
+.m{
+    cursor: pointer;
 }
 
 .work{
@@ -171,19 +180,18 @@ main{
 
 .daily{
     display: none;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .weekly{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 .monthly{
     display: none;
     justify-content: space-between;
-}
+    }
 
 .last{
     color: var(--paleBlue);
@@ -191,7 +199,7 @@ main{
     margin: 5PX;
 }
 
-@media(min-width:890px){
+@media(min-width:950px){
     body{
         height: 100vh;
     }
